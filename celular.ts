@@ -69,7 +69,7 @@ export class Celular {
     public prenderApagar(): string {
         let resultado:string=""
         if (this.prendido == false) {
-           let resultado:string ="El celular se está iniciando"
+        resultado ="El celular se está iniciando"
         } else {
           resultado = "El celular se está apagando";
         };
