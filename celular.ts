@@ -15,30 +15,56 @@ export class Celular {
         this.almacenamiento = pAlmacenamiento ?? 64;
         this.prendido = pPrendido ?? false;
     }
+    //
 
     public setMarca(pMarca: string): void {
         this.marca = pMarca;
     }
+    public getMarca(): string {
+        return this.marca;
+    }
 
+    //
     public setModelo(pModelo: string): void {
         this.modelo = pModelo;
     }
+    public getModelo(): string {
+        return this.modelo;
+    }
 
+    //
     public setSistemaOp(pSistemaOp: string): void {
         this.sistemaOp = pSistemaOp;
     }
+    public getSistemaOp(): string {
+        return this.sistemaOp;
+    }
 
+//
+    public setMemoriaRAM(pMemoriaRAM: string): void {
+        this.marca = pMemoriaRAM;
+    }
     public getMemoriaRAM(): number {
         return this.memoriaRAM;
     }
 
+
+    public setAlmacenamiento(pAlmacenamiento: string): void {
+        this.marca = pAlmacenamiento;
+    }
     public getAlmacenamiento(): number {
         return this.almacenamiento;
+    }
+
+    //
+    public setPrendido(pPrendido: string): void {
+        this.marca = pPrendido;
     }
 
     public getPrendido(): boolean {
         return this.prendido;
     }
+//
 
     public prenderApagar(): string {
         let resultado:string=""
