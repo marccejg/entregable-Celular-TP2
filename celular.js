@@ -67,7 +67,7 @@ var Celular = /** @class */ (function () {
     Celular.prototype.prenderApagar = function () {
         var resultado = "";
         if (this.prendido == false) {
-            var resultado_1 = "El celular se está iniciando";
+            resultado = "El celular se está iniciando";
         }
         else {
             resultado = "El celular se está apagando";
